@@ -18,6 +18,7 @@
                 Console.WriteLine("6. Print rectangle pattern");
                 Console.WriteLine("7. Reverse each word in a string");
                 Console.WriteLine("8. Find sum of all digits of a number");
+                Console.WriteLine("9. Find sum of each row in a matrix");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -68,6 +69,17 @@
 
                         //Option 8
                         SumOfDigits.SOD(654);
+                        break;
+                    case 9:
+
+                        //Option 9
+                        int[,] matrix = new int[,]
+                        {
+                            { 1, 2, 3 },
+                            { 4, 5, 6 },
+                            { 7, 8, 9 }
+                        };
+                        SumOfMatrix.SOM(matrix);
                         break;
 
                     case 0:
