@@ -13,6 +13,7 @@
                 Console.WriteLine("1. Count duplicate elements in an array");
                 Console.WriteLine("2. Print unique elements in an array");
                 Console.WriteLine("3. Count frequency of each element in an array");
+                Console.WriteLine("4. Find maximum and minimum elements in an array");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +36,12 @@
                         //Option 3
                         //Add option to chose from predefined array, or define your custom array.
                         CountFreq.Freq(arr);
+                        break;
+                    case 4:
+
+                        //Option 4
+                        //Add option to chose from predefined array, or define your custom array.
+                        MaxMin.MM(arr);
                         break;
 
                     case 0:
