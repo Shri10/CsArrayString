@@ -17,6 +17,7 @@
                 Console.WriteLine("5. Print Triangular star pattern");
                 Console.WriteLine("6. Print rectangle pattern");
                 Console.WriteLine("7. Reverse each word in a string");
+                Console.WriteLine("8. Find sum of all digits of a number");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -62,6 +63,11 @@
                         //ReverseWords.RevWords("Welcome to C# Array, and Strings Programs Please Chose from below options.");
                         string reversedWords = ReverseWords.RevWords("Welcome to C# Array, and Strings Programs Please Chose from below options.");
                         Console.WriteLine(reversedWords);
+                        break;
+                    case 8:
+
+                        //Option 8
+                        SumOfDigits.SOD(654);
                         break;
 
                     case 0:
