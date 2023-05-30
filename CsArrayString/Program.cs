@@ -15,6 +15,7 @@
                 Console.WriteLine("3. Count frequency of each element in an array");
                 Console.WriteLine("4. Find maximum and minimum elements in an array");
                 Console.WriteLine("5. Print Triangular star pattern");
+                Console.WriteLine("6. Print rectangle pattern");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -48,6 +49,11 @@
 
                         //Option 5
                         StarPattern.starPatt();
+                        break;
+                    case 6:
+
+                        //Option 6
+                        RectPattern.rectPatt();
                         break;
 
                     case 0:
