@@ -16,6 +16,7 @@
                 Console.WriteLine("4. Find maximum and minimum elements in an array");
                 Console.WriteLine("5. Print Triangular star pattern");
                 Console.WriteLine("6. Print rectangle pattern");
+                Console.WriteLine("7. Reverse each word in a string");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -54,6 +55,13 @@
 
                         //Option 6
                         RectPattern.rectPatt();
+                        break;
+                    case 7:
+
+                        //Option 7
+                        //ReverseWords.RevWords("Welcome to C# Array, and Strings Programs Please Chose from below options.");
+                        string reversedWords = ReverseWords.RevWords("Welcome to C# Array, and Strings Programs Please Chose from below options.");
+                        Console.WriteLine(reversedWords);
                         break;
 
                     case 0:
