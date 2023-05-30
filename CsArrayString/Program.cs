@@ -14,6 +14,7 @@
                 Console.WriteLine("2. Print unique elements in an array");
                 Console.WriteLine("3. Count frequency of each element in an array");
                 Console.WriteLine("4. Find maximum and minimum elements in an array");
+                Console.WriteLine("5. Print Triangular star pattern");
                 Console.WriteLine("0. Exit");
 
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -42,6 +43,11 @@
                         //Option 4
                         //Add option to chose from predefined array, or define your custom array.
                         MaxMin.MM(arr);
+                        break;
+                    case 5:
+
+                        //Option 5
+                        StarPattern.starPatt();
                         break;
 
                     case 0:
